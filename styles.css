@@ -1,0 +1,388 @@
+body {
+    margin: 0%;
+    background-color: #F5DEB3;
+}
+
+
+.sobreimagem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 33%;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.logo {
+    color: #321b0d;
+    font-size: 50px;
+    margin-left: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.imagem {
+
+    position: relative;
+    background-image: url("./苏圣亮-观景餐厅.jpg");
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.caixa {
+    margin-top: 2%;
+}
+
+.sobre {
+
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 9%;
+
+    margin-top: 3%;
+
+}
+
+.topicos {
+
+    margin-top: -1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #321b0d;
+
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.botao {
+    background-color: #ecd9b6;
+    border: 3px solid #321b0d;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 190px;
+    height: 70px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #321b0d;
+    font-weight: 600;
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.topico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #321b0d;
+    margin: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.texto {
+    background-color: #ecd9b6;
+    border-radius: 10px;
+    border: solid 2px #321b0d;
+    padding: 28px;
+    /* Adiciona espaço interno ao redor do texto */
+}
+
+
+.completo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.cardapio-completo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pratos {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+
+.pratostipicos {
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.nomeprato {
+    margin: 2%;
+    margin-top: 1%;
+    margin-left: 0%;
+    font-size: xx-large;
+    font-weight: 540;
+    color: #321b0d;
+
+}
+
+strong {
+    color: #321b0d;
+
+}
+
+.valorprato {
+    margin-top: 0%;
+    margin-left: 1%;
+    font-size: x-large;
+    color: #321b0d;
+
+}
+
+.endereco-mapa {
+    background-image: url('./苏圣亮-观景餐厅.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+    /* Centraliza a caixinha */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+    /* Defina uma altura fixa ou proporcional */
+
+}
+
+/* Caixinha de endereço */
+.texto-endereco {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 300px;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+    margin: 1%;
+}
+
+@media (max-width: 900px) {
+
+    .imagem {
+
+        background-image: url("./苏圣亮-观景餐厅.jpg");
+
+        background-repeat: no-repeat;
+
+    }
+
+
+    .logo {
+        color: #321b0d;
+        font-size: 60px;
+        margin-left: 3%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .sobreimagem {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        height: 55%;
+        width: 55%;
+        border-radius: 10px;
+    }
+
+    .sobre {
+
+        font-size: large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 5%;
+        margin-top: 2%;
+
+
+    }
+
+    .topicos {
+
+        margin-top: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        color: #321b0d;
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .caixa {
+        margin-top: 4%;
+    }
+
+
+    .topico {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        color: #321b0d;
+        margin: 4%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+
+
+    .cardapio-completo {
+        margin: 2%;
+    }
+
+    .pratos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1px;
+
+    }
+
+    .pratostipicos {
+        border-radius: 10px;
+        height: 180px;
+        width: 200px;
+        object-fit: cover;
+    }
+
+    .nomeprato {
+        margin: 2%;
+        margin-top: 1%;
+        margin-left: 0%;
+        font-size: x-large;
+        font-weight: 540;
+        color: #321b0d;
+
+    }
+
+    .valorprato {
+        margin-top: 0%;
+        margin-left: 1%;
+        font-size: large;
+        color: #321b0d;
+
+    }
+
+    .endereco {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 4%;
+        font-size: large;
+        color: #321b0d;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 1%;
+    }
+
+    .texto {
+        padding: 12px;
+    }
+    
+  
+
+}
+
+@media (max-width: 400px) {
+
+
+
+    .pratos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1px;
+
+    }
+
+    .pratostipicos {
+        border-radius: 10px;
+        height: 170px;
+        width: 190px;
+        object-fit: cover;
+    }
+
+    .nomeprato {
+        margin: 2%;
+        margin-top: 1%;
+        margin-left: 0%;
+        font-size: x-large;
+        font-weight: 540;
+        color: #321b0d;
+
+    }
+
+    .valorprato {
+        margin-top: 0%;
+        margin-left: 1%;
+        font-size: large;
+        color: #321b0d;
+
+    }
+
+    p {
+        font-size: 15px;
+        margin: 1%;
+    }
+
+
+
+}
+
+@media (max-width: 380px) {
+
+    
+    .pratostipicos {
+        border-radius: 10px;
+        height: 160px;
+        width: 165px;
+        object-fit: cover;
+        
+    }
+
+    .texto {
+        padding: 15px;
+    }
+
+
+
+}

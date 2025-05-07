@@ -1,0 +1,179 @@
+body {
+    background-color: #F5DEB3;
+}
+
+.topico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #321b0d;
+    margin: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.completo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.cardapio-completo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pratos {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+
+.pratostipicos {
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.nomeprato {
+    margin: 2%;
+    margin-top: 1%;
+    margin-left: 0%;
+    font-size: xx-large;
+    font-weight: 540;
+    color: #321b0d;
+
+}
+
+
+.valorprato {
+    margin-top: 0%;
+    margin-left: 1%;
+    font-size: x-large;
+    color: #321b0d;
+
+}
+
+.botao {
+    background-color: #ecd9b6;
+    border: 3px solid #321b0d;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #321b0d;
+    font-weight: 600;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+@media (max-width: 900px) {
+
+
+
+    .topico {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        color: #321b0d;
+        margin: 4%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .cardapio-completo {
+        margin: 2%;
+    }
+
+    .pratos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1px;
+    }
+
+    .pratostipicos {
+        border-radius: 10px;
+        height: 180px;
+        width: 200px;
+        object-fit: cover;
+    }
+
+    .nomeprato {
+        margin: 2%;
+        margin-top: 1%;
+        margin-left: 0%;
+        font-size: x-large;
+        font-weight: 540;
+        color: #321b0d;
+    }
+
+    .valorprato {
+        margin-top: 0%;
+        margin-left: 1%;
+        font-size: large;
+        color: #321b0d;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .pratos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1px;
+    }
+
+    .pratostipicos {
+        border-radius: 10px;
+        height: 170px;
+        width: 190px;
+        object-fit: cover;
+    }
+
+    .nomeprato {
+        margin: 2%;
+        margin-top: 1%;
+        margin-left: 0%;
+        font-size: x-large;
+        font-weight: 540;
+        color: #321b0d;
+
+    }
+
+    .valorprato {
+        margin-top: 0%;
+        margin-left: 1%;
+        font-size: large;
+        color: #321b0d;
+
+    }
+
+    p {
+        font-size: 15px;
+        margin: 1%;
+    }
+}
+
+@media (max-width: 380px) {
+
+    
+    .pratostipicos {
+        border-radius: 10px;
+        height: 160px;
+        width: 165px;
+        object-fit: cover;
+        
+    }
+}

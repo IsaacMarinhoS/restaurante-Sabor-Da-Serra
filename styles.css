@@ -28,7 +28,7 @@ body {
 .imagem {
 
     position: relative;
-    background-image: url("./苏圣亮-观景餐厅.jpg");
+    background-image: url("./banner.jpg");
     height: 420px;
     background-size: cover;
     background-position: center;
@@ -157,7 +157,7 @@ strong {
 }
 
 .endereco-mapa {
-    background-image: url('./苏圣亮-观景餐厅.jpg');
+    background-image: url('./banner.jpg');
     background-size: cover;
     background-position: center;
     padding: 40px;
@@ -197,7 +197,7 @@ p {
 
     .imagem {
 
-        background-image: url("./苏圣亮-观景餐厅.jpg");
+        background-image: url("./banner.jpg");
 
         background-repeat: no-repeat;
 
@@ -384,5 +384,5 @@ p {
     }
 
 
-
+    
 }
